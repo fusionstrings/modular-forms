@@ -4,7 +4,7 @@ import preact from '@preact/preset-vite';
 export default defineConfig(() => {
   return {
     build: {
-      target: 'es2020',
+      target: 'esnext',
       outDir: 'dist',
       lib: {
         entry: './src/index.ts',
